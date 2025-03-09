@@ -1,0 +1,17 @@
+name: MythologicalWeapons
+version: '1.0- Final Release'
+main: me.mizu.mythologicalWeapons.MythologicalWeapons
+api-version: '1.21'
+load: STARTUP
+authors: [ Mizukage_ ]
+description: A Plugin Used By Trident Events For Their Special Weapons For This Specific Event
+website: https://sites.google.com/view/mizus-events/home
+commands:
+  mythology:
+    description: Gives the player a mythological weapon.
+    usage: /mythology <weapon>
+    permission: mythologicalweapons.mythology
+  permissions:
+    mythologicalweapons.mythology:
+      description: Allows the player to use the /mythology command.
+      default: op

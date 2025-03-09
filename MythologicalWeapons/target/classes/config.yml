@@ -1,0 +1,39 @@
+blades-of-chaos:
+  lore:
+    lore:
+      - "&7The fiery blades of chaos wielded by Kratos."
+      - "&7Throw them to pull enemies towards you."
+      - "&7Cooldown: &c30 seconds"
+  cooldown: 30 # Cooldown in seconds
+  chain-length: 9 # Number of chain segments
+  chain-spacing: 1.0 # Spacing between chain segments
+
+wukong-staff:
+  lore:
+    - "&7The magical staff of Sun Wukong."
+    - "&7Enlarge it to deal massive damage and slow enemies."
+    - "&7Cooldown: &c30 seconds"
+  cooldown: 30 # Cooldown in seconds
+  enlargement-duration: 7 # Duration of enlargement in seconds
+
+
+khonshu-moon-staff:
+  lore:
+    - "&7A staff blessed by Khonshu, the moon god."
+    - "&7Summon night and empower yourself with strength."
+    - "&7Cooldown: &c35 seconds"
+  cooldown: 35 # Cooldown in seconds
+  damage-multiplier: 1.5 # Damage multiplier
+  slowness-duration: 10 # Duration of slowness in seconds
+  effect-radius: 15.0 # Radius for applying effects
+  time-increment: 200 # Time increment per tick (default: 200 ticks)
+  night-duration: 10 # Duration of nighttime in seconds
+
+
+odins-gungnir:
+  lore:
+    - "&b&lOdin’s Gungnir"
+    - "&7The spear of Odin, capable of summoning lightning."
+    - "&7Right-click to strike an enemy with lightning."
+    - "&7Cooldown: &c30 seconds"
+  cooldown: 30
